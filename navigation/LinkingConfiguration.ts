@@ -12,6 +12,24 @@ export default {
     screens: {
       Root: {
         screens: {
+          Home: {
+            screens: {
+              HomeScreen: 'home',
+            }
+          }
+        }
+      },
+      ResultSearch: {
+        screens: {
+          ResultSearch: {
+            screens: {
+              ResultSearchScreen: 'resultsearch',
+            }
+          }
+        }
+      },
+      BottomTab: {
+        screens: {
           TabOne: {
             screens: {
               TabOneScreen: 'one',
@@ -20,6 +38,16 @@ export default {
           TabTwo: {
             screens: {
               TabTwoScreen: 'two',
+            },
+          },
+          TabThree: {
+            screens: {
+              TabThreeScreen: 'three',
+            },
+          },
+          TabFour: {
+            screens: {
+              TabFourScreen: 'four',
             },
           },
         },
